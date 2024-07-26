@@ -3,8 +3,6 @@ import axios from "axios";
 import {
   Button,
   List,
-  ListItem,
-  ListItemText,
   Paper,
   Box,
   Typography,
@@ -42,7 +40,7 @@ const QuoteList = () => {
             Get Random Quote
           </Button>
         </Box>
-        {quotes.length == 0 ? (
+        {quotes.length === 0 ? (
           <Typography variant="h6" align="center" gutterBottom>
             No quotes present. Kindly press above button
           </Typography>
