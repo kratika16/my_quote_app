@@ -12,7 +12,7 @@ const authSlice = createSlice({
     login: (state, action) => {
       const { username, password } = action.payload;
       const mockUser = {
-        username: 'kratika',
+        username: 'Kratika',
         password: 'password123',
       };
 
