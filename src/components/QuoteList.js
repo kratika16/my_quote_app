@@ -48,7 +48,7 @@ const QuoteList = () => {
           <div
             style={{ display: "flex", maxHeight: "30rem", overflow: "auto" }}
           >
-            <List>
+            <List style={{width: "100%"}}>
               {quotes.map((quote, index) => (
                 <Quote key={index} quote={quote} />
               ))}
